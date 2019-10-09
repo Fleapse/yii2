@@ -19,7 +19,7 @@ $this->params['breadcrumbs'][] = $this->title;
     </p>
 
     <?php Pjax::begin(); ?>
-    <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
+    <?php  //echo $this->render('_search', ['model' => $searchModel]); ?>
 
     <?= GridView::widget([
         'dataProvider' => $dataProvider,
@@ -29,9 +29,16 @@ $this->params['breadcrumbs'][] = $this->title;
 
             'id',
             'name:ntext',
-            'type_of_food',
+            [
+                'attribute'=>'type_of_food',
+                'label'=>'тип еды',
+                'format'=>'text', // Возможные варианты: raw, html
+                'value'=>'typeOfFood.name',
+
+
+            ],
             'recipe:ntext',
-            'date_time',
+            'date_time:datetime',
 
             ['class' => 'yii\grid\ActionColumn'],
         ],

@@ -14,11 +14,11 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'name')->textarea(['rows' => 6]) ?>
 
-    <?= $form->field($model, 'type_of_food')->textInput() ?>
+    <?= $form->field($model, 'type_of_food')->dropDownList(\yii\helpers\ArrayHelper::map(\app\modules\admin\models\TypeOfFood::find()->all(),id,name)) ?>
 
     <?= $form->field($model, 'recipe')->textarea(['rows' => 6]) ?>
 
-    <?= $form->field($model, 'date_time')->textInput() ?>
+    <?= $form->field($model, 'date_time')->input("datetime-local") ?>
 
     <div class="form-group">
         <?= Html::submitButton('Save', ['class' => 'btn btn-success']) ?>

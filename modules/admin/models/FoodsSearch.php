@@ -18,7 +18,8 @@ class FoodsSearch extends Foods
     {
         return [
             [['id', 'type_of_food'], 'integer'],
-            [['name', 'recipe', 'date_time'], 'safe'],
+            [['name', 'recipe'], 'safe'],
+            [['date_time'],'datetime'],
         ];
     }
 

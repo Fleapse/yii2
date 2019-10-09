@@ -34,7 +34,7 @@ class Foods extends \yii\db\ActiveRecord
             [['name', 'type_of_food', 'recipe', 'date_time'], 'required'],
             [['name', 'recipe'], 'string'],
             [['type_of_food'], 'integer'],
-            [['date_time'], 'safe'],
+            [['date_time'], 'datetime'],
             [['type_of_food'], 'unique'],
             [['type_of_food'], 'exist', 'skipOnError' => true, 'targetClass' => TypeOfFood::className(), 'targetAttribute' => ['type_of_food' => 'id']],
         ];

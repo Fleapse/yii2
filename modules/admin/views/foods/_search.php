@@ -22,7 +22,7 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'name') ?>
 
-    <?= $form->field($model, 'type_of_food') ?>
+    <?= $form->field($model, 'type_of_food')?>
 
     <?= $form->field($model, 'recipe') ?>
 
