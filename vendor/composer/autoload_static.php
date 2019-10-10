@@ -37,6 +37,10 @@ class ComposerStaticInit402cf02cb6d08814a086fd7ae5477b4d
         array (
             'phpDocumentor\\Reflection\\' => 25,
         ),
+        'j' => 
+        array (
+            'jino5577\\daterangepicker\\' => 25,
+        ),
         'c' => 
         array (
             'cebe\\markdown\\' => 14,
@@ -132,6 +136,10 @@ class ComposerStaticInit402cf02cb6d08814a086fd7ae5477b4d
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
             1 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
             2 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
+        ),
+        'jino5577\\daterangepicker\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/jino5577/yii2-date-range-picker',
         ),
         'cebe\\markdown\\' => 
         array (

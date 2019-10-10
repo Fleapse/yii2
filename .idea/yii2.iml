@@ -4,8 +4,10 @@
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/vendor/behat/gherkin" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/bower-asset/bootstrap" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/bower-asset/bootstrap-daterangepicker" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/bower-asset/inputmask" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/bower-asset/jquery" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/bower-asset/moment" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/bower-asset/punycode" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/bower-asset/yii2-pjax" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/cebe/markdown" />

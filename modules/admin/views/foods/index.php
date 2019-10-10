@@ -3,12 +3,16 @@
 use yii\helpers\Html;
 use yii\grid\GridView;
 use yii\widgets\Pjax;
+
+
+
 /* @var $this yii\web\View */
 /* @var $searchModel app\modules\admin\models\FoodsSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
 $this->title = 'Foods';
 $this->params['breadcrumbs'][] = $this->title;
+
 ?>
 <div class="foods-index">
 
@@ -34,12 +38,16 @@ $this->params['breadcrumbs'][] = $this->title;
                 'label'=>'тип еды',
                 'format'=>'text', // Возможные варианты: raw, html
                 'value'=>'typeOfFood.name',
+                'filter' =>\app\modules\admin\models\TypeOfFood::getList()
+            ],
+            'recipe:ntext',
+            [
+                'attribute'=>'date_time',
+                'label'=>'Дата',
+                'format'=>'datetime',
 
 
             ],
-            'recipe:ntext',
-            'date_time:datetime',
-
             ['class' => 'yii\grid\ActionColumn'],
         ],
     ]); ?>

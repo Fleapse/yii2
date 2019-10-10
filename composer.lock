@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "05251a4beeaa8dfa7849f73389718d5f",
+    "content-hash": "9a1dd17412637f79108402634b901424",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -26,6 +26,25 @@
             "license": [
                 "MIT"
             ]
+        },
+        {
+            "name": "bower-asset/bootstrap-daterangepicker",
+            "version": "v3.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dangrossman/daterangepicker.git",
+                "reference": "37f07d95482939b7352f1b03c37c3fd925f44210"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dangrossman/daterangepicker/zipball/37f07d95482939b7352f1b03c37c3fd925f44210",
+                "reference": "37f07d95482939b7352f1b03c37c3fd925f44210"
+            },
+            "require": {
+                "bower-asset/jquery": ">=1.9.1,<4.0",
+                "bower-asset/moment": ">=2.9.0"
+            },
+            "type": "bower-asset"
         },
         {
             "name": "bower-asset/inputmask",
@@ -60,6 +79,24 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/jquery/jquery-dist/zipball/15bc73803f76bc53b654b9fdbbbc096f56d7c03d",
                 "reference": "15bc73803f76bc53b654b9fdbbbc096f56d7c03d"
+            },
+            "type": "bower-asset",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "bower-asset/moment",
+            "version": "2.24.0",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:moment/moment.git",
+                "reference": "96d0d6791ab495859d09a868803d31a55c917de1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/moment/moment/zipball/96d0d6791ab495859d09a868803d31a55c917de1",
+                "reference": "96d0d6791ab495859d09a868803d31a55c917de1"
             },
             "type": "bower-asset",
             "license": [
@@ -328,6 +365,54 @@
                 "html"
             ],
             "time": "2019-07-14T18:58:38+00:00"
+        },
+        {
+            "name": "jino5577/yii2-date-range-picker",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jino5577/yii2-date-range-picker.git",
+                "reference": "3a9fdffb5edd2f6a7d73de4c5a664af1bb9c37c1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jino5577/yii2-date-range-picker/zipball/3a9fdffb5edd2f6a7d73de4c5a664af1bb9c37c1",
+                "reference": "3a9fdffb5edd2f6a7d73de4c5a664af1bb9c37c1",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/bootstrap-daterangepicker": "@stable"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "jino5577\\daterangepicker\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Dmitrij Butko",
+                    "email": "jino5577@gmail.com"
+                }
+            ],
+            "description": "Yii 2 date range picker input based on Dan Grossman daterangepicker plugin.",
+            "homepage": "https://github.com/jino5577/yii2-date-range-picker",
+            "keywords": [
+                "bootstrap",
+                "bootstrap 3",
+                "date",
+                "date-range",
+                "extension",
+                "range",
+                "time",
+                "widget",
+                "yii2"
+            ],
+            "time": "2015-10-15T08:52:29+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",

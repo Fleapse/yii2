@@ -51,4 +51,9 @@ class TypeOfFood extends \yii\db\ActiveRecord
     {
         return $this->hasOne(Foods::className(), ['type_of_food' => 'id']);
     }
+    public static function getList()
+    {
+        return \yii\helpers\ArrayHelper::map(self::find()->all(),'id','name');
+    //        return ['1'=>'a', '3'=>'c'];
+    }
 }

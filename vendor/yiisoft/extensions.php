@@ -48,4 +48,13 @@ return array (
       '@yii/faker' => $vendorDir . '/yiisoft/yii2-faker',
     ),
   ),
+  'jino5577/yii2-date-range-picker' => 
+  array (
+    'name' => 'jino5577/yii2-date-range-picker',
+    'version' => '1.0.0.0',
+    'alias' => 
+    array (
+      '@jino5577/daterangepicker' => $vendorDir . '/jino5577/yii2-date-range-picker',
+    ),
+  ),
 );
