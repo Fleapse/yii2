@@ -4,6 +4,8 @@ $params = require __DIR__ . '/params.php';
 $db = require __DIR__ . '/db.php';
 
 $config = [
+    'modules' => [
+    'rbac' => 'dektrium\rbac\RbacConsoleModule',],
     'id' => 'basic-console',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
@@ -28,6 +30,11 @@ $config = [
         'db' => $db,
     ],
     'params' => $params,
+    'controllerMap' => [
+        'migration' => [
+            'class' => 'bizley\migration\controllers\MigrationController',
+        ],
+    ],
     /*
     'controllerMap' => [
         'fixture' => [ // Fixture generation command line.

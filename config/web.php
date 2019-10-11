@@ -5,10 +5,16 @@ $db = require __DIR__ . '/db.php';
 
 $config = [
     'modules' => [
+        'rbac' => 'dektrium\rbac\RbacWebModule',
+
         'admin' => [
             'class' => 'app\modules\admin\Module',
         ],
+        'user' => [
+            'class' => 'dektrium\user\Module',
+        ],
     ],
+
     'id' => 'basic',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
@@ -61,6 +67,7 @@ $config = [
         ],
 
     ],
+
     'params' => $params,
 ];
 
