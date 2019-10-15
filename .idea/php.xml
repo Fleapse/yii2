@@ -75,9 +75,6 @@
       <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
       <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
       <path value="$PROJECT_DIR$/vendor/cebe/markdown" />
-      <path value="$PROJECT_DIR$/vendor/bower-asset/bootstrap-daterangepicker" />
-      <path value="$PROJECT_DIR$/vendor/bower-asset/moment" />
-      <path value="$PROJECT_DIR$/vendor/jino5577/yii2-date-range-picker" />
       <path value="$PROJECT_DIR$/vendor/dektrium/yii2-user" />
       <path value="$PROJECT_DIR$/vendor/yiisoft/yii2-authclient" />
       <path value="$PROJECT_DIR$/vendor/yiisoft/yii2-httpclient" />
@@ -86,6 +83,7 @@
       <path value="$PROJECT_DIR$/vendor/select2/select2" />
       <path value="$PROJECT_DIR$/vendor/dektrium/yii2-rbac" />
       <path value="$PROJECT_DIR$/vendor/bizley/migration" />
+      <path value="$PROJECT_DIR$/vendor/fleapse/yii2-lab1" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="5.4.0" />

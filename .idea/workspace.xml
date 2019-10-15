@@ -7,15 +7,706 @@
       <change beforePath="$PROJECT_DIR$/.idea/yii2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/yii2.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/console.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/console.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/admin/controllers/DefaultController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/admin/views/default/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/admin/Module.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/admin/controllers/FoodsController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/admin/controllers/SiteController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/admin/controllers/TypeoffoodController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/admin/models/Foods.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/admin/models/FoodsSearch.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/admin/models/TypeOfFood.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/admin/models/TypeOfFoodSearch.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/admin/views/foods/_form.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/admin/views/foods/_search.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/admin/views/foods/create.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/admin/views/foods/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/admin/views/foods/update.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/admin/views/foods/view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/admin/views/site/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/admin/views/typeoffood/_form.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/admin/views/typeoffood/_search.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/admin/views/typeoffood/create.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/admin/views/typeoffood/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/admin/views/typeoffood/update.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/admin/views/typeoffood/view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/bootstrap-daterangepicker/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/bootstrap-daterangepicker/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/bootstrap-daterangepicker/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/bootstrap-daterangepicker/daterangepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/bootstrap-daterangepicker/daterangepicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/bootstrap-daterangepicker/demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/bootstrap-daterangepicker/drp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/bootstrap-daterangepicker/example/amd/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/bootstrap-daterangepicker/example/amd/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/bootstrap-daterangepicker/example/amd/require.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/bootstrap-daterangepicker/example/browserify/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/bootstrap-daterangepicker/example/browserify/bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/bootstrap-daterangepicker/example/browserify/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/bootstrap-daterangepicker/example/browserify/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/bootstrap-daterangepicker/moment.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/bootstrap-daterangepicker/package.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/bootstrap-daterangepicker/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/bootstrap-daterangepicker/website/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/bootstrap-daterangepicker/website/website.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/bootstrap-daterangepicker/website/website.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/.github/ISSUE_TEMPLATE/bug_report.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/.github/ISSUE_TEMPLATE/feature_request.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/.jscs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/.jshintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/.spmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/Gruntfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/Moment.js.nuspec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/benchmarks/add.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/benchmarks/clone.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/benchmarks/endOf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/benchmarks/fromDate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/benchmarks/fromDateUtc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/benchmarks/isObjectEmpty.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/benchmarks/makeDuration.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/benchmarks/query.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/benchmarks/startOf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/benchmarks/subtract.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/benchmarks/zeroFill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/component.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/ender.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/af.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/ar-dz.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/ar-kw.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/ar-ly.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/ar-ma.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/ar-sa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/ar-tn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/ar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/az.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/be.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/bg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/bm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/bn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/bo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/br.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/bs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/cs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/cv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/cy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/da.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/de-at.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/de-ch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/dv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/el.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/en-SG.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/en-au.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/en-ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/en-gb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/en-ie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/en-il.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/en-nz.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/eo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/es-do.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/es-us.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/es.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/et.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/eu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/fa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/fi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/fo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/fr-ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/fr-ch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/fr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/fy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/ga.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/gd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/gl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/gom-latn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/gu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/he.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/hi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/hr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/hu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/hy-am.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/id.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/is.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/it-ch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/it.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/ja.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/jv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/ka.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/kk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/km.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/kn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/ko.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/ku.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/ky.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/lb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/lo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/lt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/lv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/me.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/mi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/mk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/ml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/mn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/mr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/ms-my.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/ms.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/mt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/my.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/nb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/ne.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/nl-be.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/nl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/nn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/pa-in.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/pl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/pt-br.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/pt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/ro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/ru.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/sd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/se.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/si.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/sk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/sl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/sq.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/sr-cyrl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/sr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/ss.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/sv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/sw.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/ta.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/te.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/tet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/tg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/th.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/tl-ph.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/tlh.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/tr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/tzl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/tzm-latn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/tzm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/ug-cn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/uk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/ur.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/uz-latn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/uz.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/vi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/x-pseudo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/yo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/zh-cn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/zh-hk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/locale/zh-tw.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/meteor/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/meteor/export.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/meteor/moment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/meteor/package.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/meteor/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/min/locales.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/min/locales.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/min/moment-with-locales.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/min/moment-with-locales.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/min/moment.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/min/tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/moment.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/moment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/package.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/scripts/locales.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/scripts/npm_prepublish.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/create/check-overflow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/create/date-from-array.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/create/from-anything.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/create/from-array.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/create/from-object.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/create/from-string-and-array.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/create/from-string-and-format.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/create/from-string.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/create/local.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/create/parsing-flags.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/create/utc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/create/valid.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/duration/abs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/duration/add-subtract.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/duration/as.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/duration/bubble.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/duration/clone.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/duration/constructor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/duration/create.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/duration/duration.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/duration/get.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/duration/humanize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/duration/iso-string.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/duration/prototype.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/duration/valid.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/format/format.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/locale/base-config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/locale/calendar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/locale/constructor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/locale/en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/locale/formats.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/locale/invalid.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/locale/lists.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/locale/locale.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/locale/locales.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/locale/ordinal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/locale/pre-post-format.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/locale/prototype.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/locale/relative.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/locale/set.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/moment/add-subtract.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/moment/calendar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/moment/clone.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/moment/compare.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/moment/constructor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/moment/creation-data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/moment/diff.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/moment/format.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/moment/from.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/moment/get-set.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/moment/locale.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/moment/min-max.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/moment/moment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/moment/now.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/moment/prototype.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/moment/start-end-of.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/moment/to-type.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/moment/to.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/moment/valid.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/parse/regex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/parse/token.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/units/aliases.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/units/constants.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/units/day-of-month.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/units/day-of-week.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/units/day-of-year.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/units/hour.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/units/millisecond.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/units/minute.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/units/month.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/units/offset.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/units/priorities.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/units/quarter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/units/second.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/units/timestamp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/units/timezone.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/units/units.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/units/week-calendar-utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/units/week-year.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/units/week.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/units/year.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/utils/abs-ceil.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/utils/abs-floor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/utils/abs-round.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/utils/compare-arrays.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/utils/defaults.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/utils/deprecate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/utils/extend.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/utils/has-own-prop.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/utils/hooks.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/utils/index-of.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/utils/is-array.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/utils/is-date.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/utils/is-function.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/utils/is-number.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/utils/is-object-empty.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/utils/is-object.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/utils/is-undefined.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/utils/keys.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/utils/map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/utils/mod.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/utils/some.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/utils/to-int.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/lib/utils/zero-fill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/af.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/ar-dz.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/ar-kw.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/ar-ly.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/ar-ma.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/ar-sa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/ar-tn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/ar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/az.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/be.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/bg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/bm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/bn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/bo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/br.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/bs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/cs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/cv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/cy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/da.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/de-at.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/de-ch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/dv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/el.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/en-SG.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/en-au.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/en-ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/en-gb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/en-ie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/en-il.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/en-nz.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/eo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/es-do.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/es-us.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/es.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/et.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/eu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/fa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/fi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/fo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/fr-ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/fr-ch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/fr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/fy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/ga.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/gd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/gl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/gom-latn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/gu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/he.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/hi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/hr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/hu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/hy-am.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/id.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/is.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/it-ch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/it.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/ja.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/jv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/ka.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/kk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/km.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/kn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/ko.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/ku.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/ky.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/lb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/lo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/lt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/lv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/me.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/mi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/mk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/ml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/mn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/mr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/ms-my.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/ms.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/mt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/my.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/nb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/ne.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/nl-be.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/nl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/nn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/pa-in.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/pl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/pt-br.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/pt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/ro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/ru.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/sd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/se.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/si.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/sk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/sl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/sq.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/sr-cyrl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/sr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/ss.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/sv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/sw.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/ta.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/te.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/tet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/tg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/th.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/tl-ph.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/tlh.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/tr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/tzl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/tzm-latn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/tzm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/ug-cn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/uk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/ur.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/uz-latn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/uz.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/vi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/x-pseudo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/yo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/zh-cn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/zh-hk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/locale/zh-tw.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/moment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/helpers/common-locale.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/helpers/deprecation-handler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/helpers/dst.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/helpers/each.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/helpers/object-keys.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/af.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/ar-dz.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/ar-kw.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/ar-ly.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/ar-ma.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/ar-sa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/ar-tn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/ar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/az.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/be.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/bg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/bm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/bn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/bo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/br.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/bs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/cs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/cv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/cy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/da.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/de-at.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/de-ch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/dv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/el.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/en-SG.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/en-au.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/en-ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/en-gb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/en-ie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/en-il.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/en-nz.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/eo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/es-do.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/es-us.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/es.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/et.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/eu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/fa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/fi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/fo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/fr-ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/fr-ch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/fr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/fy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/ga.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/gd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/gl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/gom-latn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/gu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/he.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/hi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/hr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/hu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/hy-am.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/id.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/is.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/it-ch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/it.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/ja.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/jv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/ka.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/kk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/km.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/kn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/ko.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/ku.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/ky.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/lb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/lo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/lt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/lv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/me.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/mi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/mk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/ml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/mn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/mr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/ms-my.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/ms.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/mt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/my.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/nb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/ne.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/nl-be.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/nl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/nn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/pa-in.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/pl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/pt-br.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/pt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/ro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/ru.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/sd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/se.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/si.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/sk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/sl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/sq.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/sr-cyrl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/sr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/ss.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/sv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/sw.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/ta.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/te.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/tet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/tg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/th.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/tl-ph.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/tlh.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/tr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/tzl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/tzm-latn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/tzm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/ug-cn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/uk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/ur.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/uz-latn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/uz.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/vi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/x-pseudo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/yo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/zh-cn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/zh-hk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/locale/zh-tw.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/moment/add_subtract.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/moment/calendar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/moment/create.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/moment/creation-data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/moment/days_in_month.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/moment/days_in_year.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/moment/deprecate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/moment/diff.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/moment/duration.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/moment/duration_from_moments.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/moment/duration_invalid.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/moment/format.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/moment/from_to.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/moment/getters_setters.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/moment/instanceof.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/moment/invalid.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/moment/is_after.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/moment/is_array.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/moment/is_before.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/moment/is_between.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/moment/is_date.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/moment/is_moment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/moment/is_number.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/moment/is_same.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/moment/is_same_or_after.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/moment/is_same_or_before.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/moment/is_valid.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/moment/leapyear.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/moment/listers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/moment/locale.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/moment/locale_inheritance.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/moment/locale_update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/moment/min_max.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/moment/mutable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/moment/normalize_units.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/moment/now.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/moment/parsing_flags.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/moment/preparse_postformat.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/moment/quarter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/moment/relative_time.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/moment/start_end_of.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/moment/string_prototype.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/moment/to_type.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/moment/utc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/moment/utc_offset.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/moment/week_year.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/moment/weekday.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/moment/weeks.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/moment/weeks_in_year.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/moment/zone_switching.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/moment/zones.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/qunit-locale.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/src/test/qunit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/tasks/bump_version.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/tasks/check_sauce_creds.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/tasks/component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/tasks/nuget.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/tasks/qtest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/tasks/transpile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/tasks/update_index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/templates/default.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/templates/locale-header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/templates/test-header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/typing-tests/moment-tests.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/moment/typing-tests/tsconfig.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dektrium/yii2-rbac/Bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/dektrium/yii2-rbac/Bootstrap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dektrium/yii2-rbac/controllers/ItemControllerAbstract.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/dektrium/yii2-rbac/controllers/ItemControllerAbstract.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dektrium/yii2-rbac/messages/et/rbac.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/dektrium/yii2-rbac/messages/et/rbac.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dektrium/yii2-rbac/messages/pt-BR/rbac.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/dektrium/yii2-rbac/messages/pt-BR/rbac.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dektrium/yii2-rbac/messages/ru/rbac.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/dektrium/yii2-rbac/messages/ru/rbac.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/jino5577/yii2-date-range-picker/DateRangePicker.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/jino5577/yii2-date-range-picker/DateRangePickerAsset.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/jino5577/yii2-date-range-picker/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/jino5577/yii2-date-range-picker/MomentAsset.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/jino5577/yii2-date-range-picker/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/jino5577/yii2-date-range-picker/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Application.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/console/Application.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Command/Command.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/console/Command/Command.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Helper/QuestionHelper.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/console/Helper/QuestionHelper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Terminal.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/console/Terminal.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Tests/ApplicationTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/ApplicationTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Tests/Helper/QuestionHelperTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Helper/QuestionHelperTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Tests/Input/InputDefinitionTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Input/InputDefinitionTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Tests/Question/QuestionTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Question/QuestionTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Tests/TerminalTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/TerminalTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Tests/Tester/CommandTesterTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Tester/CommandTesterTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/XPath/TranslatorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/XPath/TranslatorTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/XPath/Extension/PseudoClassExtension.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/XPath/Extension/PseudoClassExtension.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Crawler.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Crawler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Field/ChoiceFormField.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Field/ChoiceFormField.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Field/FileFormField.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Field/FileFormField.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Field/FormField.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Field/FormField.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Tests/AbstractCrawlerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Tests/AbstractCrawlerTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/Tests/DependencyInjection/RegisterListenersPassTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/Tests/DependencyInjection/RegisterListenersPassTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/finder/Gitignore.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/finder/Gitignore.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/finder/Iterator/SortableIterator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/finder/Iterator/SortableIterator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/finder/Tests/FinderTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/finder/Tests/FinderTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/finder/Tests/GitignoreTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/finder/Tests/GitignoreTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/service-contracts/ServiceSubscriberTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/service-contracts/ServiceSubscriberTrait.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Dumper.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Dumper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Inline.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Inline.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Tests/DumperTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Tests/DumperTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Tests/ParserTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Tests/ParserTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/yiisoft/extensions.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/extensions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/generators/controller/Generator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/generators/controller/Generator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/BaseYii.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/BaseYii.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/helpers/BaseConsole.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/helpers/BaseConsole.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/i18n/Formatter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/i18n/Formatter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/validators/IpValidator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/validators/IpValidator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/Request.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/Request.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/widgets/ActiveField.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/widgets/ActiveField.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,93 +723,93 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/admin/views/foods/_form.php">
+        <entry file="file://$PROJECT_DIR$/vendor/fleapse/yii2-lab1/controllers/FoodsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="5" selection-start-column="5" selection-end-column="5" />
-              <folding>
-                <element signature="e#7#28#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="225">
+              <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/admin/views/foods/_search.php">
+        <entry file="file://$PROJECT_DIR$/composer.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/console.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20">
+              <caret line="42" column="6" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/fleapse/yii2-lab1/composer.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/fleapse/yii2-lab1/Module.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="50">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-              <folding>
-                <element signature="e#7#28#0#PHP" expanded="true" />
-              </folding>
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/admin/views/foods/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-              <folding>
-                <element signature="e#7#28#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/admin/models/Foods.php">
+        <entry file="file://$PROJECT_DIR$/vendor/fleapse/yii2-lab1/controllers/SiteController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="50">
-              <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/admin/models/TypeOfFood.php">
+        <entry file="file://$PROJECT_DIR$/vendor/fleapse/yii2-lab1/controllers/TypeoffoodController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1425">
-              <caret line="57" column="5" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/admin/models/FoodsSearch.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-              <folding>
-                <element signature="e#44#63#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/web.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="69" selection-start-line="69" selection-end-line="69" />
-              <folding>
-                <marker date="1570808617102" expanded="true" signature="863:1056" ph="..." />
-              </folding>
+            <state relative-caret-position="50">
+              <caret line="2" column="22" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config/console.php">
+        <entry file="file://$PROJECT_DIR$/config/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
+            <state relative-caret-position="900">
+              <caret line="36" column="12" lean-forward="true" selection-start-line="33" selection-start-column="10" selection-end-line="36" selection-end-column="12" />
+              <folding>
+                <marker date="1571163748100" expanded="true" signature="860:1059" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>compone</find>
+      <find>app\modules\admin</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>fleapse\lab1</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>D:\OpenServer\OSPanel\domains\yii2\vendor\fleapse\yii2-lab1</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -139,8 +830,15 @@
         <option value="$PROJECT_DIR$/modules/admin/views/foods/_form.php" />
         <option value="$PROJECT_DIR$/modules/admin/models/Foods.php" />
         <option value="$PROJECT_DIR$/modules/admin/views/foods/index.php" />
-        <option value="$PROJECT_DIR$/config/web.php" />
         <option value="$PROJECT_DIR$/config/console.php" />
+        <option value="$PROJECT_DIR$/vendor/fleapse/yii2-lab1/AutoloadExample.php" />
+        <option value="$PROJECT_DIR$/vendor/fleapse/yii2-lab1/controllers/FoodsController.php" />
+        <option value="$PROJECT_DIR$/vendor/fleapse/yii2-lab1/controllers/SiteController.php" />
+        <option value="$PROJECT_DIR$/vendor/fleapse/yii2-lab1/controllers/TypeoffoodController.php" />
+        <option value="$PROJECT_DIR$/modules/admin/Module.php" />
+        <option value="$PROJECT_DIR$/vendor/fleapse/yii2-lab1/composer.json" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/config/web.php" />
       </list>
     </option>
   </component>
@@ -219,9 +917,6 @@
       <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
       <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
       <path value="$PROJECT_DIR$/vendor/cebe/markdown" />
-      <path value="$PROJECT_DIR$/vendor/bower-asset/bootstrap-daterangepicker" />
-      <path value="$PROJECT_DIR$/vendor/bower-asset/moment" />
-      <path value="$PROJECT_DIR$/vendor/jino5577/yii2-date-range-picker" />
       <path value="$PROJECT_DIR$/vendor/dektrium/yii2-user" />
       <path value="$PROJECT_DIR$/vendor/yiisoft/yii2-authclient" />
       <path value="$PROJECT_DIR$/vendor/yiisoft/yii2-httpclient" />
@@ -230,6 +925,7 @@
       <path value="$PROJECT_DIR$/vendor/select2/select2" />
       <path value="$PROJECT_DIR$/vendor/dektrium/yii2-rbac" />
       <path value="$PROJECT_DIR$/vendor/bizley/migration" />
+      <path value="$PROJECT_DIR$/vendor/fleapse/yii2-lab1" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -258,7 +954,20 @@
             <path>
               <item name="yii2" type="b2602c69:ProjectViewProjectNode" />
               <item name="yii2" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yii2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yii2" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="fleapse" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yii2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yii2" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="fleapse" type="462c0819:PsiDirectoryNode" />
+              <item name="yii2-lab1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -270,20 +979,21 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/modules/admin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/vendor/fleapse/yii2-lab1" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\OpenServer\OSPanel\domains\yii2\modules\admin\controllers" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\OpenServer\OSPanel\domains\yii2\vendor\fleapse\yii2-lab1" />
       <recent name="D:\OpenServer\OSPanel\domains\yii2\modules\admin" />
       <recent name="D:\OpenServer\OSPanel\domains\yii2\modules\admin\views\layouts" />
       <recent name="D:\OpenServer\OSPanel\domains\yii2\modules\admin\views" />
       <recent name="D:\OpenServer\OSPanel\domains\yii2\controllers" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\OpenServer\OSPanel\domains\yii2\modules\admin\controllers" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -313,7 +1023,10 @@
       <workItem from="1570639471348" duration="691000" />
       <workItem from="1570640354145" duration="224000" />
       <workItem from="1570641431200" duration="6152000" />
-      <workItem from="1570801223540" duration="3918000" />
+      <workItem from="1570801223540" duration="4737000" />
+      <workItem from="1571061907707" duration="3696000" />
+      <workItem from="1571161824012" duration="1339000" />
+      <workItem from="1571163192166" duration="556000" />
     </task>
     <task id="LOCAL-00001" summary="remove all from web">
       <created>1570546739215</created>
@@ -326,12 +1039,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28098000" />
+    <option name="totallyTimeSpent" value="34508000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1609808" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10127932" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -344,7 +1058,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.30227518" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.8808234" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -404,57 +1118,19 @@
     <entry file="file://$PROJECT_DIR$/config/db.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/admin/controllers/DefaultController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/admin/controllers/DefaultController.php" />
     <entry file="file://$PROJECT_DIR$/modules/admin/SiteController.php" />
     <entry file="file://$PROJECT_DIR$/composer.lock">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-6600" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/admin/controllers/TypeoffoodController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/admin/controllers/SiteController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/admin/views/site/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="60" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/admin/views/foods/create.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/admin/views/foods/view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="849">
-          <caret line="35" column="22" lean-forward="true" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/admin/controllers/FoodsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2100">
-          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/admin/controllers/TypeoffoodController.php" />
+    <entry file="file://$PROJECT_DIR$/modules/admin/controllers/SiteController.php" />
+    <entry file="file://$PROJECT_DIR$/modules/admin/views/site/index.php" />
+    <entry file="file://$PROJECT_DIR$/modules/admin/views/foods/create.php" />
+    <entry file="file://$PROJECT_DIR$/modules/admin/views/foods/view.php" />
+    <entry file="file://$PROJECT_DIR$/modules/admin/controllers/FoodsController.php" />
     <entry file="file://$PROJECT_DIR$/widgets/Alert.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-175">
@@ -468,70 +1144,7 @@
     <entry file="file://$PROJECT_DIR$/web/index.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/admin/views/default/index.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/admin/Module.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/admin/views/foods/_search.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#7#28#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/admin/views/foods/_form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-start-column="5" selection-end-column="5" />
-          <folding>
-            <element signature="e#7#28#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/admin/views/foods/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-          <folding>
-            <element signature="e#7#28#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/admin/models/Foods.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/admin/models/TypeOfFood.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1425">
-          <caret line="57" column="5" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/admin/models/FoodsSearch.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-          <folding>
-            <element signature="e#44#63#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/admin/views/default/index.php" />
     <entry file="file://$PROJECT_DIR$/vendor/dektrium/yii2-rbac/migrations/Migration.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-8829">
@@ -539,27 +1152,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
+    <entry file="file://$PROJECT_DIR$/modules/admin/views/foods/_form.php" />
+    <entry file="file://$PROJECT_DIR$/modules/admin/views/foods/_search.php" />
+    <entry file="file://$PROJECT_DIR$/modules/admin/views/foods/index.php" />
+    <entry file="file://$PROJECT_DIR$/modules/admin/models/Foods.php" />
+    <entry file="file://$PROJECT_DIR$/modules/admin/models/FoodsSearch.php" />
+    <entry file="file://$PROJECT_DIR$/vendor/fleapse/yii2-lab1/AutoloadExample.php" />
+    <entry file="file://$PROJECT_DIR$/modules/admin/models/TypeOfFood.php" />
+    <entry file="file://$PROJECT_DIR$/modules/admin/Module.php" />
+    <entry file="file://$PROJECT_DIR$/vendor/fleapse/yii2-lab1/migrations/m191011_154440_003_create_table_user.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/fleapse/yii2-lab1/controllers/FoodsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-125">
-          <caret line="22" column="17" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="17" />
+        <state relative-caret-position="225">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/web.php">
+    <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
-          <folding>
-            <marker date="1570808617102" expanded="true" signature="863:1056" ph="..." />
-          </folding>
+        <state relative-caret-position="400">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/fleapse/yii2-lab1/Module.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/fleapse/yii2-lab1/controllers/SiteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/fleapse/yii2-lab1/controllers/TypeoffoodController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/console.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
+        <state relative-caret-position="20">
+          <caret line="42" column="6" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/fleapse/yii2-lab1/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="36" column="12" lean-forward="true" selection-start-line="33" selection-start-column="10" selection-end-line="36" selection-end-column="12" />
+          <folding>
+            <marker date="1571163748100" expanded="true" signature="860:1059" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -18,7 +18,7 @@ return array(
     'phpDocumentor\\Reflection\\' => array($vendorDir . '/phpdocumentor/reflection-common/src', $vendorDir . '/phpdocumentor/reflection-docblock/src', $vendorDir . '/phpdocumentor/type-resolver/src'),
     'kartik\\select2\\' => array($vendorDir . '/kartik-v/yii2-widget-select2/src'),
     'kartik\\base\\' => array($vendorDir . '/kartik-v/yii2-krajee-base/src'),
-    'jino5577\\daterangepicker\\' => array($vendorDir . '/jino5577/yii2-date-range-picker'),
+    'fleapse\\lab1\\' => array($vendorDir . '/fleapse/yii2-lab1'),
     'dektrium\\user\\' => array($vendorDir . '/dektrium/yii2-user'),
     'dektrium\\rbac\\' => array($vendorDir . '/dektrium/yii2-rbac'),
     'cebe\\markdown\\' => array($vendorDir . '/cebe/markdown'),

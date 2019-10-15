@@ -8,10 +8,11 @@ $config = [
         'rbac' => 'dektrium\rbac\RbacWebModule',
 
         'admin' => [
-            'class' => 'app\modules\admin\Module',
+            'class' => 'fleapse\lab1\Module',
         ],
         'user' => [
             'class' => 'dektrium\user\Module',
+            'admins' => ['admin']
         ],
     ],
 
@@ -31,10 +32,10 @@ $config = [
         'cache' => [
             'class' => 'yii\caching\FileCache',
         ],
-        'user' => [
-            'identityClass' => 'app\models\User',
-            'enableAutoLogin' => true,
-        ],
+//        'user' => [
+//            'identityClass' => 'app\models\User',
+//            'enableAutoLogin' => true,
+//        ],
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],

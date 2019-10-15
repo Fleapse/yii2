@@ -30,15 +30,6 @@ return array (
       '@yii/debug' => $vendorDir . '/yiisoft/yii2-debug/src',
     ),
   ),
-  'yiisoft/yii2-gii' => 
-  array (
-    'name' => 'yiisoft/yii2-gii',
-    'version' => '2.1.1.0',
-    'alias' => 
-    array (
-      '@yii/gii' => $vendorDir . '/yiisoft/yii2-gii/src',
-    ),
-  ),
   'yiisoft/yii2-faker' => 
   array (
     'name' => 'yiisoft/yii2-faker',
@@ -46,15 +37,6 @@ return array (
     'alias' => 
     array (
       '@yii/faker' => $vendorDir . '/yiisoft/yii2-faker',
-    ),
-  ),
-  'jino5577/yii2-date-range-picker' => 
-  array (
-    'name' => 'jino5577/yii2-date-range-picker',
-    'version' => '1.0.0.0',
-    'alias' => 
-    array (
-      '@jino5577/daterangepicker' => $vendorDir . '/jino5577/yii2-date-range-picker',
     ),
   ),
   'yiisoft/yii2-httpclient' => 
@@ -103,16 +85,6 @@ return array (
       '@kartik/select2' => $vendorDir . '/kartik-v/yii2-widget-select2/src',
     ),
   ),
-  'dektrium/yii2-rbac' => 
-  array (
-    'name' => 'dektrium/yii2-rbac',
-    'version' => '1.0.0.0-alpha',
-    'alias' => 
-    array (
-      '@dektrium/rbac' => $vendorDir . '/dektrium/yii2-rbac',
-    ),
-    'bootstrap' => 'dektrium\\rbac\\Bootstrap',
-  ),
   'bizley/migration' => 
   array (
     'name' => 'bizley/migration',
@@ -120,6 +92,34 @@ return array (
     'alias' => 
     array (
       '@bizley/migration' => $vendorDir . '/bizley/migration/src',
+    ),
+  ),
+  'yiisoft/yii2-gii' => 
+  array (
+    'name' => 'yiisoft/yii2-gii',
+    'version' => '2.1.2.0',
+    'alias' => 
+    array (
+      '@yii/gii' => $vendorDir . '/yiisoft/yii2-gii/src',
+    ),
+  ),
+  'dektrium/yii2-rbac' => 
+  array (
+    'name' => 'dektrium/yii2-rbac',
+    'version' => '1.0.1.0',
+    'alias' => 
+    array (
+      '@dektrium/rbac' => $vendorDir . '/dektrium/yii2-rbac',
+    ),
+    'bootstrap' => 'dektrium\\rbac\\Bootstrap',
+  ),
+  'fleapse/yii2-lab1' => 
+  array (
+    'name' => 'fleapse/yii2-lab1',
+    'version' => '9999999-dev',
+    'alias' => 
+    array (
+      '@fleapse/lab1' => $vendorDir . '/fleapse/yii2-lab1',
     ),
   ),
 );
